@@ -37,4 +37,4 @@ type Data = {
 
 - lockAxis: boolean // 是否锁定轴向移动
 - dragBlockClass: string // 自定义拖拽区域类名
-- onChange?: (data) => void // 排序变化回调
+- onChange: (data) => void // 排序变化回调
